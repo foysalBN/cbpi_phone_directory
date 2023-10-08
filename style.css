@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+/* bangla */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Tiro+Bangla:ital@0;1&display=swap');
+
+/* fontAwesome */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css');
+
+
+*,
+body {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: grid;
+    place-content: center;
+}
+
+.container {
+    margin: 10px;
+    /* padding: 20px; */
+    max-width: 440px;
+    /* border: 2px solid red; */
+
+}
+
+.head {
+    color: rgb(44, 44, 44);
+    background: #f9f9f9;
+    padding: 10px 15px;
+    position: relative;
+}
+
+#clicktocall {
+    position: absolute;
+    /* height: 80px; */
+    right: 4px;
+    top: 0;
+}
+
+#title {
+    font-size: 17px;
+    padding-bottom: 5px;
+}
+
+.search {
+    color: #d5d5d5;
+}
+
+.search i {
+    padding-top: 5px;
+}
+
+.search input {
+    border: none;
+    background: none;
+    /* background: red; */
+    padding: 6px;
+
+}
+
+.search input::placeholder {
+    color: #d5d5d5;
+}
+
+.search input:focus-visible {
+    outline: none;
+}
+
+.contacts {
+    background-color: #ffffff;
+    max-height: calc(100vh - 100px);
+    /* border: 1px solid red; */
+    /* overflow-x: scroll; */
+    overflow-y: scroll;
+
+    /* Hide scroll bar */
+    -ms-overflow-style: none;
+    /* Internet Explorer 10+ */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+/* Hide scroll bar */
+.contacts::-webkit-scrollbar {
+    display: none;
+    /* Safari and Chrome */
+}
+
+.contacts a {
+    color: black;
+    text-decoration: none;
+    margin: 10px;
+    /* padding-bottom: 10px;
+    padding-bottom: 10px; */
+}
+
+.contact {
+    display: flex;
+    gap: 10px;
+}
+
+.contact h3 {
+    font-size: 13px;
+    font-family: 'Tiro Bangla', serif;
+}
+
+
+.contact p {
+    color: #9d9c9c;
+    font-size: 14px;
+}
+
+.icon i {
+    padding-top: 10px;
+    font-size: 20px;
+}

@@ -257,6 +257,18 @@ let contacts = [
         engName: "Shakh Farid Uddin Fahad",
         phone: "01636847798",
     },
+    {
+        sl: 105,
+        name: "কামরুজ্জামান, গেস্ট ইনস্ট্রাক্টর (ইটি)",
+        engName: "Kamrujamman",
+        phone: "01827043020",
+    },
+    {
+        sl: 105,
+        name: "মরিইয়ম আক্তার বৃষ্টি , গেস্ট ইনস্ট্রাক্টর (আর এ সি)",
+        engName: "Moriyom Akther Bristy",
+        phone: "01621828576",
+    },
 
     // Extra ==============
     {
